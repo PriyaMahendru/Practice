@@ -13,10 +13,11 @@ public class RandomPersonImpl {
 		
 		List<RandomPerson> randomPersonList=new ArrayList<RandomPerson>();
 		for(int i=0;i<10;i++)
-		{
-			boolean randomisHumanValue=rdmprsn.randomIsHuman();
-			int randomAgeValue=rdmprsn.randomAge();
-			String randomNameValue=rdmprsn.randomName();
+		{   long s=System.nanoTime();
+		    int j=100;
+			boolean randomisHumanValue=rdmprsn.randomIsHuman(j);
+			int randomAgeValue=rdmprsn.randomAge(j);
+			String randomNameValue=rdmprsn.randomName(s);
 			RandomPerson e=new RandomPerson(randomisHumanValue,randomAgeValue,randomNameValue);
 		randomPersonList.add(e);
 		}
