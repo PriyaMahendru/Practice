@@ -1,0 +1,19 @@
+java 8 - OCP Java SE 8 Programmer II Exam Guide (Exam 1Z0-809), 7th Edition -one chapter a week
+sql/plsql - http://www.oracletutorial.com/ - EVERYDAY 1 PAGE
+spring core - Spring & Hibernate for Beginners (includes Spring Boot) - udemy- MAY 
+spring mvc -  Spring & Hibernate for Beginners (includes Spring Boot) - udemy - MAY 
+spring boot -  Spring & Hibernate for Beginners (includes Spring Boot) - udemy - MAY 
+spring batch - https://www.petrikainulainen.net/programming/spring-framework/spring-batch-tutorial-introduction/ - PROJECT 
+Junit - https://www.petrikainulainen.net/get-started-with-junit-5/ - JUNE
+data structures - data structures and algorithms in java 2nd edition,robert lafore	- WEEKENDS
+tools - later-- ANSIBLE--GIT--
+
+core java VIDEOS alternate with jsp,sevlet videos durga videos DURING  TRAVELLING
+
+10 QUES EVERYDAY FOR EACH
+
+MAKE NOTES FOR ALL -  COMPILE ON WEEKENDS
+ONE HACKERRANK,10 QUES ALTERNATE 
+morning and night(1 hr) - dev ques
+spring 1 hr in office 8-9
+
