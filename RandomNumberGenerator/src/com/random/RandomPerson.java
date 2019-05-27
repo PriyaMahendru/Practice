@@ -15,7 +15,7 @@ static List<Person> ageSorted=new ArrayList<Person>();
 
 	public static void main(String[] args)
 	{
-		List<Integer> ages=Arrays.asList(51,52,53,54,55,56,57,58,595,50,51,52,53,54,55,56,57,58,59,50,51,52,43,54,55,51);
+		List<Integer> ages=Arrays.asList(21,22,23,24,25,56,57,58,595,50,51,52,53,54,55,26,27,58,59,50,51,52,43,54,55,51);
 		List<String> names=Arrays.asList("priya","shivam","himanshu","riya","rajat","kirtika","ashima","bikram","anil","jestin","raj","krantika","jaya","priyanka","shiv","ayush","rita","kanchan","kirti","aneesha","vikram","arun","mathew","surbhi","sandarbh","joy");
 		List<Boolean> isHumanValues=Arrays.asList(true,false);
 		
