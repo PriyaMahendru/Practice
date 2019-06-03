@@ -44,7 +44,7 @@ public class Reporting {
 	public static List<Person> filterPersonByName(List<Person> persons,String name_criteria)
 	{
 		for(Person person: persons){
-         if(person.getName().contains("name_criteria"))
+         if(person.getName().toLowerCase().contains(name_criteria)||person.getName().toUpperCase().contains(name_criteria))
          {
         	 nameFilteration.add(person);
          }
