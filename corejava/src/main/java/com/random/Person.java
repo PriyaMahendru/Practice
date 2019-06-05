@@ -34,4 +34,9 @@ public class Person {
 		this.isHuman=randomIsHuman;
 		this.name=randomName;
 		}
+		@Override
+		public String toString()
+		{
+			return this.name;
+		}
 	}

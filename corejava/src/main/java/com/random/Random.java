@@ -2,14 +2,25 @@ package com.random;
 
 import java.util.List;
 
+
+/**
+ *To facilitate a functionality of randomizer
+ */
 public class Random {
-		
-		public <T> T getRandomValue(List<T> randomList)
-		{
+	/**
+	 * To get a random value from a list
+	 * @param inputList
+	 * @param <T>
+	 * @return Return a value type T
+	 */
+		public <T> T getRandomValue(List<T> inputList)
+		{   assert(inputList!=null);
 			long time=System.nanoTime();
-			int length=randomList.size();
+			time=time+time;
+			System.out.print(time);
+			int length=inputList.size();
 			int randomIndex=(int) (time%length);
-			return randomList.get(randomIndex);
+			return inputList.get(randomIndex);
 		}
 		
 }

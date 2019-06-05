@@ -16,10 +16,24 @@ public class PersonFactory {
 	}
 
 	static  List<Person> randomPersonList=new ArrayList<Person>();
-	
+
+	public static  void  main(String args[])
+	{
+		createRandomPersonList(5);
+
+	}
 	public static List<Person> createRandomPersonList(int number_of_person)
 	{
 		Random random=new Random();
+		System.out.println(random.getRandomValue(humanTypes));
+		try {
+			Thread.sleep(1000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
+		System.out.println(random.getRandomValue(humanTypes));
+		System.out.println(random.getRandomValue(humanTypes));
+		System.out.println(random.getRandomValue(humanTypes));
          if(number_of_person==0)
          {
         	 number_of_person=10;
@@ -29,7 +43,7 @@ public class PersonFactory {
 			Person person=new Person(random.getRandomValue(humanTypes),random.getRandomValue(ages),random.getRandomValue(names));
 			randomPersonList.add(person);
 		}		
-		
+
 		return randomPersonList;		
 	}
 	
