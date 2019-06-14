@@ -1,6 +1,6 @@
 package com.random;
 
-public class Person {
+public class 	Person {
 	private boolean isHuman;
 	private int age;
 	private String name;

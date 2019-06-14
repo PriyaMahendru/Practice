@@ -15,11 +15,10 @@ public class Random {
 	 */
 		public <T> T getRandomValue(List<T> inputList)
 		{   assert(inputList!=null);
+		int i=0;
 			long time=System.nanoTime();
-			time=time+time;
-			System.out.print(time);
 			int length=inputList.size();
-			int randomIndex=(int) (time%length);
+			int randomIndex=(int) (time % (length + i));
 			return inputList.get(randomIndex);
 		}
 		

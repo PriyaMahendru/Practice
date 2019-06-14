@@ -25,16 +25,8 @@ public class PersonFactory {
 	public static List<Person> createRandomPersonList(int number_of_person)
 	{
 		Random random=new Random();
-		System.out.println(random.getRandomValue(humanTypes));
-		try {
-			Thread.sleep(1000);
-		} catch (InterruptedException e) {
-			e.printStackTrace();
-		}
-		System.out.println(random.getRandomValue(humanTypes));
-		System.out.println(random.getRandomValue(humanTypes));
-		System.out.println(random.getRandomValue(humanTypes));
-         if(number_of_person==0)
+
+		 if(number_of_person==0)
          {
         	 number_of_person=10;
          }
