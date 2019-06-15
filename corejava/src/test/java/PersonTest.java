@@ -1,3 +1,5 @@
+package com.random;
+
 import com.random.Person;
 import com.random.PersonFactory;
 import org.junit.Assert;
