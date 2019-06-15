@@ -1,5 +1,8 @@
 package com.random;
 
+/**
+ * To specify the attributes of the person
+ */
 public class 	Person {
 	private boolean isHuman;
 	private int age;

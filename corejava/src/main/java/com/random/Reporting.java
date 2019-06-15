@@ -5,9 +5,9 @@ import java.util.List;
 
 public class Reporting {
 	
-	static List<Person> humanFilteration=new ArrayList<Person>();
-	static List<Person> nameFilteration=new ArrayList<Person>();
-	static List<Person> ageFilteration=new ArrayList<Person>();
+	private static List<Person> humanFilteration=new ArrayList<Person>();
+	private static List<Person> nameFilteration=new ArrayList<Person>();
+	private static List<Person> ageFilteration=new ArrayList<Person>();
 
 	public static void main(String[] args)
 	{
